@@ -1,0 +1,24 @@
+.new{
+    height: 350px;
+    box-shadow: 0 0 5px 3px #fff;
+}
+@media (max-width:992px) {
+    .new{
+        height: auto;
+    }
+}
+img{
+    height: 200px;
+}
+.imgNew{
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+.imgNew:hover img{
+    transform: scale(1.1);
+    filter: opacity(50%);
+}
+.descNew a:hover{
+    text-decoration: underline;
+}

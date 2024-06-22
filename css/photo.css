@@ -1,0 +1,43 @@
+.photo{
+    box-shadow: 0 0 5px 3px #fff;
+}
+.photo{
+    overflow: hidden;
+}
+.photo img{
+    height: 300px;
+    cursor: pointer;
+}
+.photo:hover img{
+    transform: scale(1.1);
+    filter: opacity(50%);
+}
+.overlayPhoto{
+    background-color: #00000073;
+}
+.overlayPhoto .light-item{
+    box-shadow: 0 0 5px 5px #fff;
+    border-radius: 20px;
+    width: 60%;
+    height: 80vh;
+    background-image: url('../image/dribbble.gif');
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width: 768px) {
+    .overlayPhoto .light-item{
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .overlayPhoto .light-item{
+        height: 60vh;
+    }
+}
+.overlayPhoto .light-item i{
+    color: #fff;
+    cursor: pointer;
+}
+.overlayPhoto .light-item i{
+    color:#bf0426;
+}

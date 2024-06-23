@@ -73,37 +73,37 @@ async function getWeather(city){
         lastWeather(nameCity)
         if(forecast[0].day.condition.text == 'Sunny'){
             document.body.style.cssText = `
-                background-image: url('../image/0093830f1dd6e42c6137ee1eb8e3286b_w200.gif');
+                background-image: url('image/0093830f1dd6e42c6137ee1eb8e3286b_w200.gif');
                 background-size: cover;
                 background-position: center center;
             `
         }else if(forecast[0].day.condition.text == 'Heavy rain'){
             document.body.style.cssText = `
-                background-image: url('../image/rain.gif');
+                background-image: url('image/rain.gif');
                 background-size: cover;
                 background-position: center center;
             `
         } else if(forecast[0].day.condition.text == 'Patchy rain nearby' || forecast[0].day.condition.text == 'Moderate rain' || forecast[0].day.condition.text == 'Light drizzle'){
             document.body.style.cssText = `
-            background-image: url('../image/Light drizzle.gif');
+            background-image: url('image/Light drizzle.gif');
             background-size: cover;
             background-position: center center;
             `
         } else if(forecast[0].day.condition.text == 'Partly Cloudy' || forecast[0].day.condition.text == 'Mist' || forecast[0].day.condition.text == 'Overcast'){
             document.body.style.cssText = `
-                background-image: url('../image/nav-bg.gif');
+                background-image: url('image/nav-bg.gif');
                 background-size: cover;
                 background-position: center center;
             `
         } else if(forecast[0].day.condition.text == 'Snowy' || forecast[0].day.condition.text == 'Snow'){
             document.body.style.cssText = `
-            background-image: url('../image/snowy.gif');
+            background-image: url('image/snowy.gif');
             background-size: cover;
             background-position: center center;
             `
         } else{
             document.body.style.cssText = `
-                background-image: url('../image/nav-bg.gif');
+                background-image: url('image/nav-bg.gif');
                 background-size: cover;
                 background-position: center center;
             `

@@ -11,7 +11,7 @@ for (let i = 0; i < imgList.length; i++) {
         currentIndex = imgList.indexOf(e.target)
         let currentSrc = e.target.getAttribute('src')
         lightItem.style.cssText = `
-            background-image: url('../${currentSrc}');
+            background-image: url('${currentSrc}');
         `
         lightContainer.classList.replace('d-none','d-flex')
     })

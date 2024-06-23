@@ -28,6 +28,7 @@ window.addEventListener('load', function(){
     function error(err){
         alert('Your geolocation has been denied')
         loadingCurrentCity()
+        getWeather('cairo')
     }
 })
 /* End User Location Weather */

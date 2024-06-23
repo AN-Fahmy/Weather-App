@@ -42,7 +42,7 @@ btnRight.addEventListener('click',function(e){
 
     let currentNextSrc = imgList[currentIndex].getAttribute('src')
     lightItem.style.cssText = `
-        background-image: url('../${currentNextSrc}');
+        background-image: url('${currentNextSrc}');
     `
 
 })
@@ -58,7 +58,7 @@ btnLeft.addEventListener('click',function(e){
 
     let currentNextSrc = imgList[currentIndex].getAttribute('src')
     lightItem.style.cssText = `
-        background-image: url('../${currentNextSrc}');
+        background-image: url('${currentNextSrc}');
     `
 
 })

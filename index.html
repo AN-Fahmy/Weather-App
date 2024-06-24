@@ -11,10 +11,12 @@
     <title>Weather</title>
 </head>
 <body class="text-white overflow-x-hidden">
+    <!-- Loading Page -->
     <div class="loading position-fixed top-0 start-0 w-100 h-100 z-1 d-flex justify-content-center align-items-center" id="loading">
         <img class="w-100 h-100" src="image/loading.gif" alt="">
     </div>
-    
+
+    <!-- Navbar Weather -->
     <div class="stage d-flex justify-content-center align-items-center animate__animated">
         <svg class="thunder-cloud" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
             <path d="M400,64c-5.3,0-10.6,0.4-15.8,1.1C354.3,24.4,307.2,0,256,0s-98.3,24.4-128.2,65.1c-5.2-0.8-10.5-1.1-15.8-1.1
@@ -123,6 +125,7 @@
             <path class="wind-one" d="M16,256h64c8.8,0,16-7.2,16-16s-7.2-16-16-16H16c-8.8,0-16,7.2-16,16S7.2,256,16,256z" />
         </svg>
     </div>
+
     <nav class="navbar navbar-expand-lg animate__animated">
         <div class="container">
             <a class="navbar-brand d-flex justify-content-center align-items-center gap-2 text-white" href="/index.html"><i class="fa-solid fa-cloud-moon fs-1 animate__animated"></i> <p class="animate__animated">Weather<span>tagline goes here</span></p></a>
@@ -150,6 +153,9 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar Weather -->
+    
+    <!-- Data Weather -->
     <section class="weather-container py-5">
         <div class="container">
             <div id='searchContainer' class=" w-75 mx-auto d-flex gap-3">
@@ -171,6 +177,9 @@
             </div>
         </div>
     </section>
+    <!-- Data Weather -->
+
+    <!-- Footer -->
     <footer class="p-4 mt-5 bg-transparent">
         <div class="container">
             <div class="subsctibe d-flex justify-content-center aling-items-center gap-3">
@@ -192,6 +201,7 @@
             </div>
         </div>
     </footer>
+    <!-- Footer -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>

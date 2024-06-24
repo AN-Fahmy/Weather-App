@@ -12,6 +12,22 @@
     transform: scale(1.1);
     filter: opacity(50%);
 }
+.photo .info{
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #00000069;
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.photo:hover .info{
+    opacity: 1;
+    transform: translateY(0);
+}
 .overlayPhoto{
     background-color: #00000073;
 }

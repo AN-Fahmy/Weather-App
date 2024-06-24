@@ -33,10 +33,6 @@ ul{
 p{
     margin: 0;
 }
-.overlay{
-    background-image: linear-gradient(to right, #000000a2 50%, #000000a2 100%);
-    z-index: -1;
-}
 /* End Global Style */
 
 /* Start Navbar Style */

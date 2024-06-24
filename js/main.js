@@ -49,7 +49,7 @@ btnSearch.addEventListener('click',function(){
             setTimeout(function(){
                 errMsg.classList.add('d-none')
                 inputSearch.classList.remove("is-invalid")
-            },5000)
+            },4000)
         }
     }
 })
@@ -480,7 +480,7 @@ function displayLastWeather(){
 /* End Weather Last Weather Day */
 
 /* Start Validation Input */
-inputSearch.addEventListener('input',function(){
+inputSearch.addEventListener('blur',function(){
     validationInput()
 })
 function validationInput(){
@@ -497,7 +497,7 @@ function validationInput(){
         errMsg.classList.remove('d-none')
         setTimeout(function(){
             errMsg.classList.add('d-none')
-        },5000)
+        },4000)
     }
 
 }
@@ -519,7 +519,7 @@ function loadingCurrentCity(){
 }
 /* Loading Intro */
 
-
+/*Animate With Scroll */
 window.addEventListener('scroll', function(){
     if(document.documentElement.scrollTop > 500){
         document.querySelector('.next-day').classList.add('animate__animated','animate__fadeInLeft')
@@ -527,3 +527,4 @@ window.addEventListener('scroll', function(){
         document.querySelector('.last-day').classList.add('animate__animated','animate__fadeInRight')
     }
 })
+/*Animate With Scroll */
